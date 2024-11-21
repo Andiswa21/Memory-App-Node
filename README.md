@@ -83,3 +83,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ## Acknowledgments
 
 - Confetti animation powered by [canvas-confetti](https://github.com/catdad/canvas-confetti)
+
+- # Deployed version
+- ``https://memory-app-node-1.onrender.com/
