@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <title>Flip A Card</title>
+  </head>
+  <body>
+    <!-- Celebration overlay -->
+    <div id="celebration-overlay">
+      <div id="celebration-text">Congratulations!<br />You Won!</div>
+      <button class="restart-btn" onclick="initGame()">
+        <i class="fas fa-undo"></i>
+      </button>
+    </div>~
+
+    <!-- Aside section with the restart button -->
+    <div class="aside">
+      <button class="restart-btn" onclick="initGame()">
+        <i class="fas fa-undo"></i>
+      </button>
+      <!-- Display number of tries -->
+      <div id="tries-display">Tries: 0</div>
+    </div>
+
+    <!-- Game board section -->
+    <div class="game-cont">
+      <div id="game-board"></div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
